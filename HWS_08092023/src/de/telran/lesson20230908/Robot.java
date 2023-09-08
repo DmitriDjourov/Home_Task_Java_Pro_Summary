@@ -21,8 +21,18 @@ public class Robot implements Playable, Workable, Walkable {
   public void walk() {
     System.out.println("Robot walking a pet");
   }
+
   @Override
   public void walk(Pet pet) {
-    System.out.println("Robot walking " + pet);
+    if (pet.getClass() == WildAnimal.class) {
+      System.out.println("Sorry, Robot, but you can't walk a wild animal.");
+    } else {
+      System.out.println("Robot walking " + pet);
+    }
+  }
+
+  @Override
+  public String toString() {
+    return "Robot";
   }
 }

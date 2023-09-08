@@ -26,7 +26,7 @@ public class Human implements Playable, Walkable {
   @Override
   public void walk(Pet pet) {
     if (pet.getClass() == WildAnimal.class) {
-      System.out.println("Sorry, you can't walk a wild animal.");
+      System.out.println("Sorry, " + name + ", but you can't walk a wild animal.");
     } else {
       System.out.println("Human walking " + pet);
     }
@@ -34,6 +34,6 @@ public class Human implements Playable, Walkable {
 
   @Override
   public String toString() {
-    return "Human " + name ;
+    return "Human " + name;
   }
 }

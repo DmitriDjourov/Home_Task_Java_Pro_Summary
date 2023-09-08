@@ -38,9 +38,12 @@ public class Park {
         // нельзя было бы выгуливать
         wildAnimal.sayHello();
         human.play(wildAnimal);
+        robot.play(wildAnimal);
         wildAnimal.play(human);
+        wildAnimal.play(robot);
         wildAnimal.feed();
         human.walk(wildAnimal);//  их нельзя выгуливать
+        robot.walk(wildAnimal);
         System.out.println("========================================================");
 
 //        Playable[] arrayOfGamers = {human, cat, dog};
