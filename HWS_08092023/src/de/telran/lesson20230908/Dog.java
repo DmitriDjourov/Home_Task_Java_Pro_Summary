@@ -1,6 +1,6 @@
 package de.telran.lesson20230908;
 
-public class Dog extends Animal {
+public class Dog extends Pet {
 
     private String color;
 

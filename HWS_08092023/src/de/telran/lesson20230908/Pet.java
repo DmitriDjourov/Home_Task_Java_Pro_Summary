@@ -1,15 +1,15 @@
 package de.telran.lesson20230908;
 
-public abstract class Animal implements Playable {
+public abstract class Pet implements Playable {
 
     private String name;
     private int age;
     private boolean isHungry;
 
-    public Animal() {
+    public Pet() {
     }
 
-    public Animal(String name, int age) {
+    public Pet(String name, int age) {
         this.name = name;
         this.age = age;
         this.isHungry = true;

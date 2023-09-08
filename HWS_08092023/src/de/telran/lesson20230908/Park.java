@@ -6,11 +6,11 @@ public class Park {
 
 
     public static void main(String[] args) {
-        Animal animal = new Cat( "Tom", 1);
-        animal.feed();
-        animal = new Dog("Mikky", 2, "grey");
-        animal.feed();
-        animal.sayHello();
+        Pet pet = new Cat( "Tom", 1);
+        pet.feed();
+        pet = new Dog("Mikky", 2, "grey");
+        pet.feed();
+        pet.sayHello();
 
 //        ((Dog) animal).bark(); // possible, but not save
         Dog mikky = new Dog("Mikky", 2, "grey");
