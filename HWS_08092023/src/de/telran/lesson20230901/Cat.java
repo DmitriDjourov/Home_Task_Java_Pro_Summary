@@ -1,9 +1,9 @@
 package de.telran.lesson20230901;
 
-import de.telran.lesson20230908.Animal;
+import de.telran.lesson20230908.Pet;
 import de.telran.lesson20230908.Playable;
 
-public class Cat extends Animal {
+public class Cat extends Pet {
 
 //    private Kitten kitten = new Kitten();
 
@@ -35,7 +35,7 @@ public class Cat extends Animal {
         System.out.println("Cat plays with " + playable);
     }
 
-    public class Kitten extends Animal {
+    public class Kitten extends Pet {
         private String kittenName;
 
         public String getParentName(){
