@@ -1,5 +1,5 @@
 # Home_Task_Java_Pro_Summary
-# ** [HWS_08092023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/tree/main/HWS_08092023)**
+# **[HWS_08092023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/tree/main/HWS_08092023)**
 ## * 1 уровень сложности: 
 > ## 1. Доработать систему классов, созданных на уроке (см. код в репозитории https://github.com/IliaIliukovich/summary300523-m-be), так чтобы:
 > ### *     появилось новое понятие домашнее животное Pet
