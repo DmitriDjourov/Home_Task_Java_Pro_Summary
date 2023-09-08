@@ -4,7 +4,7 @@ public abstract class Pet implements Playable {
 
     private String name;
     private int age;
-    private boolean isHungry;
+    static boolean isHungry;
 
     public Pet() {
     }
@@ -48,11 +48,11 @@ public abstract class Pet implements Playable {
 
     @Override
     public void play() {
-        System.out.println("Animal " + name + " plays");
+        System.out.println("Pet " + name + " plays");
     }
 
     @Override
     public String toString() {
-        return "Animal{" + "name='" + name + '\'' + '}';
+        return "Pet " + name;
     }
 }

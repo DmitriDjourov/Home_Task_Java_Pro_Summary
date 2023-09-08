@@ -17,14 +17,31 @@ public class Park {
         mikky.bark();
 
         Human human = new Human("Harry");
-        Cat cat = new Cat("MyCat", 2);
-        Dog dog = new Dog("MyDog", 2, "grey");
+        Cat cat = new Cat("Murzik", 2);
+        Dog dog = new Dog("Sharik", 2, "grey");
         Robot robot = new Robot();
+        WildAnimal wildAnimal = new WildAnimal("Marusya", 1);
 
 //        human.play();
 //        cat.play();
 //        dog.play();
         human.play(cat);
+        System.out.println("========================================================");
+        //у классов Human и Robot появилась возможность выгуливать домашних животных
+        // - метод walk(Pet pet)
+        human.walk(cat);
+        human.walk(dog);
+        robot.walk(cat);
+        robot.walk(dog);
+        System.out.println("========================================================");
+        //дикие животные по-прежнему умели бы играть, их можно было бы кормить, но их
+        // нельзя было бы выгуливать
+        wildAnimal.sayHello();
+        human.play(wildAnimal);
+        wildAnimal.play(human);
+        wildAnimal.feed();
+        human.walk(wildAnimal);//  их нельзя выгуливать
+        System.out.println("========================================================");
 
 //        Playable[] arrayOfGamers = {human, cat, dog};
 //        allPlay(arrayOfGamers);

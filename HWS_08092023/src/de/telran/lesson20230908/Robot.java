@@ -23,6 +23,6 @@ public class Robot implements Playable, Workable, Walkable {
   }
   @Override
   public void walk(Pet pet) {
-    System.out.println("Robot walking a " + pet);
+    System.out.println("Robot walking " + pet);
   }
 }
