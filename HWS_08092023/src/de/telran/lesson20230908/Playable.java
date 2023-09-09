@@ -8,7 +8,7 @@ public interface Playable {
 
   void play(Playable playable);
 
-  public default void play(Playable playable, Pet pet) {
+   default void play(Playable playable, Pet pet) {
     if (playable.getClass() == Dog.class) {
       System.out.println("Gav-gav!!!");
     } else if (playable.getClass() == Cat.class) {
