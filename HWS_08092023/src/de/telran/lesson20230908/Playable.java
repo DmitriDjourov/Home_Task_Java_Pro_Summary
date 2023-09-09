@@ -9,9 +9,9 @@ public interface Playable {
   void play(Playable playable);
 
   public default void play(Playable playable, Pet pet) {
-    if (pet.getClass() == Dog.class) {
+    if (playable.getClass() == Dog.class) {
       System.out.println("Gav-gav!!!");
-    } else if (pet.getClass() == Cat.class) {
+    } else if (playable.getClass() == Cat.class) {
       System.out.println("The cat runs away!!!");
     } else {
       System.out.println("Play with " + pet);
