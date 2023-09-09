@@ -1,5 +1,7 @@
 package de.telran.lesson20230908;
 
+import de.telran.lesson20230901.Cat;
+
 public class Dog extends Pet {
 
     private String color;
@@ -28,6 +30,10 @@ public class Dog extends Pet {
 
     @Override
     public void play(Playable playable) {
-        System.out.println("Dog plays with " + playable);
+        if (playable.getClass() == Cat.class) {
+            System.out.println("Gav-gav!!!");}
+            else {
+            System.out.println("Dog plays with " + playable);
+        }
     }
 }

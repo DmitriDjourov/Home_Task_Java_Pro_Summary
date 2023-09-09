@@ -1,5 +1,6 @@
 package de.telran.lesson20230901;
 
+import de.telran.lesson20230908.Dog;
 import de.telran.lesson20230908.Pet;
 import de.telran.lesson20230908.Playable;
 
@@ -31,9 +32,14 @@ public class Cat extends Pet {
     }
 
     @Override
-    public void play(Playable playable) {
-        System.out.println("Cat plays with " + playable);
-    }
+            public void play(Playable playable) {
+            if (playable.getClass() == Dog.class) {
+                System.out.println("The cat runs away!!!");}
+            else {
+                System.out.println("Cat plays with " + playable);
+            }
+        }
+
 
     public class Kitten extends Pet {
         private String kittenName;
