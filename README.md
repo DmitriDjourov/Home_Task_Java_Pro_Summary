@@ -8,5 +8,5 @@
 > ### *     [дикие животные по-прежнему умели бы играть, их можно было бы кормить](HWS_08092023/src/de/telran/lesson20230908/WildAnimal.java), но их [нельзя было бы выгуливать](HWS_08092023/src/de/telran/lesson20230908/Human.java)
 
 > ## 2. Доработать методы play() так, чтобы при попытке игры кошек с собаками:
-> ### *     [dog.play(cat) - собака бы лаяла на кошку](HWS_08092023/src/de/telran/lesson20230908/Playable.java)
-> ### *     [cat.play(dog) - кошка бы убегала](HWS_08092023/src/de/telran/lesson20230908/Playable.java)
+> ### *     [dog.play(cat) - собака бы лаяла на кошку](HWS_08092023/src/de/telran/lesson20230908/Dog.java)
+> ### *     [cat.play(dog) - кошка бы убегала](HWS_08092023/src/de/telran/lesson20230901/Cat.java)
