@@ -1,7 +1,6 @@
 package de.telran.lesson20230908;
 
-public class WildAnimal extends Pet{
-
+public class WildAnimal extends Pet {
   public WildAnimal(String name, int age) {
     super(name, age);
   }
@@ -19,7 +18,8 @@ public class WildAnimal extends Pet{
   @Override
   public void feed() {
     isHungry = false;
-    System.out.println(this.getClass().getSimpleName() + " is not hungry anymore");}
+    System.out.println(this.getClass().getSimpleName() + " is not hungry anymore");
+  }
 
   @Override
   public String toString() {

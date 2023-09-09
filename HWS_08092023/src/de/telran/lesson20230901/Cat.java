@@ -8,61 +8,61 @@ public class Cat extends Pet {
 
 //    private Kitten kitten = new Kitten();
 
-    private static int catCount = 0;
+  private static int catCount = 0;
 
-    public static void printCatCount(){
-        // age++; impossible
-        System.out.println("Total cat count: " + catCount);
+  public static void printCatCount() {
+    // age++; impossible
+    System.out.println("Total cat count: " + catCount);
+  }
+
+  public Cat(String catName, int catAge) {
+    super(catName, catAge);
+    catCount++;
+  }
+
+  public Kitten createKitten() {
+    Kitten kitten = new Kitten();
+    kitten.kittenName = "New name";
+    return kitten;
+  }
+
+  @Override
+  public void sayHello() {
+    System.out.println("Meow!");
+  }
+
+  @Override
+  public void play(Playable playable) {
+    if (playable.getClass() == Dog.class) {
+      System.out.println("The cat sees the dog! The cat runs away!!!");
+    } else {
+      System.out.println("Cat plays with " + playable);
     }
+  }
 
-    public Cat(String catName, int catAge){
-        super(catName, catAge);
-        catCount++;
-    }
 
-    public Kitten createKitten(){
-        Kitten kitten = new Kitten();
-        kitten.kittenName = "New name";
-        return kitten;
+  public class Kitten extends Pet {
+    private String kittenName;
+
+    public String getParentName() {
+      return super.getName();
     }
 
     @Override
     public void sayHello() {
-        System.out.println("Meow!");
+      System.out.println("Meow!");
     }
 
     @Override
-            public void play(Playable playable) {
-            if (playable.getClass() == Dog.class) {
-                System.out.println("The cat sees the dog! The cat runs away!!!");}
-            else {
-                System.out.println("Cat plays with " + playable);
-            }
-        }
-
-
-    public class Kitten extends Pet {
-        private String kittenName;
-
-        public String getParentName(){
-            return super.getName();
-        }
-
-        @Override
-        public void sayHello() {
-            System.out.println("Meow!");
-        }
-
-        @Override
-        public void play(Playable playable) {
-            System.out.println("Kitten plays with " + playable);
-        }
+    public void play(Playable playable) {
+      System.out.println("Kitten plays with " + playable);
     }
+  }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
+  @Override
+  public String toString() {
+    return super.toString();
+  }
 }
 
 
