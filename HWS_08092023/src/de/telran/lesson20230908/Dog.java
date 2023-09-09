@@ -31,7 +31,7 @@ public class Dog extends Pet {
     @Override
     public void play(Playable playable) {
         if (playable.getClass() == Cat.class) {
-            System.out.println("Gav-gav!!!");}
+            System.out.println("The dog sees the cat! Gav-gav!!!");}
             else {
             System.out.println("Dog plays with " + playable);
         }
