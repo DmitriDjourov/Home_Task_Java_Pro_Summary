@@ -1,6 +1,8 @@
 package de.telran.lesson20230908;
 
 public class UseChild {
+
+
   public static void main(String[] args) {
 //        Parent parent = new Parent();
 //        System.out.println(parent.getParentData());

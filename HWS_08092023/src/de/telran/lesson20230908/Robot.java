@@ -1,6 +1,6 @@
 package de.telran.lesson20230908;
 
-public class Robot implements Playable, Workable, Walkable {
+public class Robot  implements Playable, Workable, Walkable {
 
   @Override
   public void play() {
@@ -25,15 +25,8 @@ public class Robot implements Playable, Workable, Walkable {
 
   @Override
   public void walk(Pet pet) {
-    if (pet.getClass() == WildAnimal.class) {
-      System.out.println("Sorry, Robot, but you can't walk a wild animal.");
-    } else {
-      System.out.println("Robot walking " + pet);
-    }
+    System.out.println("Robot walking a pet " + pet);
   }
 
-  @Override
-  public String toString() {
-    return "Robot";
-  }
 }
+

@@ -4,6 +4,7 @@ public class Parent {
 
   public String parentData = "Parent data";
   public String data = "Data from parent";
+
   public static String staticParentData = "Static Parent Data";
 
   {
