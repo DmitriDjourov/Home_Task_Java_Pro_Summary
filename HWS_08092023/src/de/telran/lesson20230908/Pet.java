@@ -1,6 +1,6 @@
 package de.telran.lesson20230908;
 
-public abstract class Pet implements Playable {
+public abstract class Pet implements Playable{
 
   private String name;
   private int age;
