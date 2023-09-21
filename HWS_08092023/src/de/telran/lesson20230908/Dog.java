@@ -56,5 +56,8 @@ public class Dog extends Pet {
     return color != null ? color.hashCode() : 0;
   }
 
-
+  @Override
+  public String toString() {
+    return " Dog ";
+  }
 }

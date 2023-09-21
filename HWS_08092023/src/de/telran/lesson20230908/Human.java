@@ -49,12 +49,12 @@ public class Human implements Playable, Walkable {
   }
 
   @Override
-  public void walk() {
-    System.out.println("Human walking a pet");
+  public void walk(Pet pet) {
+    System.out.println("Human walking a pet" + pet);
   }
 
   @Override
-  public void walk(Pet pet) {
-    System.out.println("Human walking a pet" + pet);
+  public String toString() {
+    return "Human " + name ;
   }
 }

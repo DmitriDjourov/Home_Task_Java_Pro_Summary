@@ -2,10 +2,10 @@ package de.telran.lesson20230908;
 
 public abstract class Pet extends Animal {
 
-  static boolean isHungry;
+  // static boolean isHungry;
   public Pet(String name, int age) {
     super(name, age);
-    isHungry = true;
+    setHungry(false);
   }
   public Pet() {
   }
@@ -42,13 +42,13 @@ public abstract class Pet extends Animal {
 //    this.age = age;
 //  }
 
-  public boolean isHungry() {
-    return isHungry;
-  }
+  //public boolean isHungry() {
+  //  return isHungry;
+  //}
 
-  public void setHungry(boolean hungry) {
-    isHungry = hungry;
-  }
+ // public void setHungry(boolean hungry) {
+  //  isHungry = hungry;
+ // }
 
 //  public abstract void sayHello();
 
