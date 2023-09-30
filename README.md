@@ -21,7 +21,7 @@
 > ## private boolean isHungry;
 > ## private double weight;
 > ## }
->> ## [Составить тестовый список экземпляров данного класса List monkeys и на его основе]()
+>> ## [Составить тестовый список экземпляров данного класса List monkeys и на его основе](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/461139863c80ff139e0f95583e50a4d178469879/HWS_29092023/src/main/java/org/example/Main.java#L7)
 >> ## [Получить Map имя / информация, голодна ли обезьянка](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/461139863c80ff139e0f95583e50a4d178469879/HWS_29092023/src/main/java/org/example/Main.java#L26)
 >> ## [Получить Map цвет / количество обезьян данного цвета](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/461139863c80ff139e0f95583e50a4d178469879/HWS_29092023/src/main/java/org/example/Main.java#L39)
 >> ## [Получить Map> цвет / список имен обезьян данного цвета](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/461139863c80ff139e0f95583e50a4d178469879/HWS_29092023/src/main/java/org/example/Main.java#L51)
