@@ -11,7 +11,7 @@
 > ### *     [dog.play(cat) - собака бы лаяла на кошку](HWS_08092023/src/de/telran/lesson20230908/Dog.java)
 > ### *     [cat.play(dog) - кошка бы убегала](HWS_08092023/src/de/telran/lesson20230901/Cat.java)
 
-## **[HWS_29092023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/tree/main/HWS_29092023/src/main/java/org/example)**
+# **[HWS_29092023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/tree/main/HWS_29092023/src/main/java/org/example)**
 ## * 1 уровень сложности: 
 > ## [Имеется класс Monkey c полями](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_29092023/src/main/java/org/example/Monkey.java):
 > ## public class Monkey {
