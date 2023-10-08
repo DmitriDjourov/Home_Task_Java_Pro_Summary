@@ -26,3 +26,23 @@
 >> ## [Получить Map цвет / количество обезьян данного цвета](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/461139863c80ff139e0f95583e50a4d178469879/HWS_29092023/src/main/java/org/example/Main.java#L39)
 >> ## [Получить Map> цвет / список имен обезьян данного цвета](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/461139863c80ff139e0f95583e50a4d178469879/HWS_29092023/src/main/java/org/example/Main.java#L51)
 >> ## [Создать компаратор и отсортировать исходный список по весу и имени](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_29092023/src/main/java/org/example/ComparatorByWeightName.java)
+
+# **[HWS_08102023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/tree/main/HWS_08102023/src/main/java/org/example)**
+## * 1 уровень сложности:
+
+>> ## 1. Создать Supplier randomJoke, который выдает пользователю случайный анекдот из заготовленного исходного списка анекдотов.
+
+>> ## 2. Создать Consumer, который принимает числа и печатает четные числа в поток System.out, а нечетные числа в System.err.
+
+>> ## 3. Cоздать Predicate isYellowMonkey, который проверяет, желтого ли цвета обезьянка Monkey.
+
+>> ## 4*.Создать с помощью методов Function .compose() и .andThen() функцию convertToCelsius, которая:
+
+> ###  - заменяет исходное число типа Integer на его строковое представление, добавляя в строковом
+> ###    представлении перед числом его знак (+ или -)
+
+> ###  - добавляет после числа текст "degrees Celsius"
+
+> ###     - ограничивает значения числа значениями +/- 100, выдавая граничные значения при превышении диапазона
+> ###       convertToCelsius.apply(-150) вернет "-100 degrees Celsius"
+> ###       convertToCelsius.apply(150) вернет "+100 degrees Celsius"
