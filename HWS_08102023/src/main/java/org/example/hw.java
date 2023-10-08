@@ -66,14 +66,12 @@ public class hw {
 				//2.
 				Function<Integer, String> addCelsius = num -> num + " degrees Celsius";
 				//3.
-	/*			Function<Integer, String> convertToCelsius = toStringWithSign
-						                                             .andThen(Math::abs)
-						                                             .andThen(Math::min)
-						                                             .andThen(addCelsius);
-
+				Function<Integer, String> convertToCelsius = ((Function<Integer, Integer>) x -> Math.min(Math.max(x, -100), 100))
+						                                             .andThen(x -> x.toString())
+						                                             .compose(x -> Integer.valueOf((x < 0 ? "-" : "+") + Math.abs(x)));
 				System.out.println(convertToCelsius.apply(-150));
 				System.out.println(convertToCelsius.apply(150));
 				System.out.println(convertToCelsius.apply(-50));
-				System.out.println(convertToCelsius.apply(75));*/
+				System.out.println(convertToCelsius.apply(75));
 		}
 }
