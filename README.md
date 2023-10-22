@@ -49,7 +49,7 @@
 >
 # **[HWS_20102023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_20102023/taski.txt)**
 >
-##  1 уровень сложности: Переписать фрагменты кода с применением стримов:
+##  1 уровень сложности: [Переписать фрагменты кода с применением стримов](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_20102023/taski.txt):
 > 
 - 1)
 
