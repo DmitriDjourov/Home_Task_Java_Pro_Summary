@@ -118,5 +118,5 @@ Password должен содержать только латинские бук�
 checkLoginAndPassword(john, 123, 123) --> true
 checkLoginAndPassword(john, 123, 1234) --> false
 checkLoginAndPassword(john, 123@, 123@) --> false
-checkLoginAndPassword(john@, 123, 123) --> false]()
+checkLoginAndPassword(john@, 123, 123) --> false](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_27102023/src/main/java/org/example/Main.java)
 
