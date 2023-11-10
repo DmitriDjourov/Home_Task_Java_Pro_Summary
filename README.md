@@ -121,9 +121,9 @@ checkLoginAndPassword(john, 123@, 123@) --> false
 checkLoginAndPassword(john@, 123, 123) --> false](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_27102023/src/main/java/org/example/Main.java)
 
 
-# **[HWS_10112023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/tree/main/HWS_10112023/src/main/java/org/example)**
+# **[HWS_10112023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_10112023/src/main/java/org/example/Main.java)**
 ## * 1 уровень сложности:
-Написать [метод T[] filter(T[] t, Filter filter)](), который принимает на вход массив (любого типа) и
+Написать [метод T[] filter(T[] t, Filter filter)](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_10112023/src/main/java/org/example/Main.java), который принимает на вход массив (любого типа) и
 производит фильтрацию данных согласно реализации интерфейса Filter (например, через лямбда-выражение)
 Интерфейс Filter имеет метод apply (T t), с помощью которого можно будет указывать способ фильтрации.
 interface Filter {
