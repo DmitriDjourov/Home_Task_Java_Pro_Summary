@@ -142,3 +142,19 @@ public boolean apply(Integer i) {
 return (i % 2 == 0);
 }
 });
+# **[HWS_17112023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_17112023/src/main/java/org/example/Main.java)**
+## * 1 уровень сложности:
+
+Имеется [класс Student с полями name, surname, age.]()  Создать [аннотацию @StudentInfo]() и [соответствующий инжектор]()
+через рефлексию, чтобы с их помощью иметь возможность инициализировать переменные типа Student. 
+
+Например:
+
+[public class School]() {
+@StudentInfo(name = "Tom", surname = "Smith", age = 15)
+private Student student1;
+
+@StudentInfo(name = "Mary", surname = "Jennings", age = 17)
+private Student student2;
+
+}
