@@ -145,12 +145,12 @@ return (i % 2 == 0);
 # **[HWS_17112023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_17112023/src/main/java/org/example/Main.java)**
 ## * 1 уровень сложности:
 
-Имеется [класс Student с полями name, surname, age.]()  Создать [аннотацию @StudentInfo]() и [соответствующий инжектор]()
+Имеется [класс Student с полями name, surname, age.](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_17112023/src/main/java/org/example/Student.java)  Создать [аннотацию @StudentInfo](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_17112023/src/main/java/org/example/StudentInfo.java) и [соответствующий инжектор](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/cb911752f7221b81b79619d2093fedf42dcbf2c5/HWS_17112023/src/main/java/org/example/School.java#L16)
 через рефлексию, чтобы с их помощью иметь возможность инициализировать переменные типа Student. 
 
 Например:
 
-[public class School]() {
+[public class School](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_17112023/src/main/java/org/example/School.java#L16) {
 @StudentInfo(name = "Tom", surname = "Smith", age = 15)
 private Student student1;
 
