@@ -156,5 +156,14 @@ private Student student1;
 
 @StudentInfo(name = "Mary", surname = "Jennings", age = 17)
 private Student student2;
-
 }
+
+# **[HWS_24112023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_24112023/src/main/java/org/example/Main.java)**
+## * 1 уровень сложности:
+
+1. Установить VisualVM (https://visualvm.github.io/download.html), запустить, проверить, как отображаются
+   пользовательские потоки в режиме работы, сна, ожидания. потоки-демоны
+2. Запустить и посмотреть информацию о работе потоков в jstack.
+3. Имеется счет BankAccount, на котором хранится определенная сумма денег int sum.
+   Реализовать потокобезопасный [метод пополнения счета - deposit(int amount)](),
+   [снятия со счета - withdraw(int amount).]()
