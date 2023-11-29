@@ -164,6 +164,6 @@ private Student student2;
 1. Установить VisualVM (https://visualvm.github.io/download.html), запустить, проверить, как отображаются
    пользовательские потоки в режиме работы, сна, ожидания. потоки-демоны
 2. Запустить и посмотреть информацию о работе потоков в jstack.
-3. Имеется счет BankAccount, на котором хранится определенная сумма денег int sum.
-   Реализовать потокобезопасный [метод пополнения счета - deposit(int amount)](),
-   [снятия со счета - withdraw(int amount).]()
+3. Имеется счет [BankAccount, на котором хранится определенная сумма денег int sum.](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_24112023/src/main/java/org/example/BankAccount.java)
+   Реализовать потокобезопасный [метод пополнения счета - deposit(int amount)](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/559346aa8267ce30b7bce2952d4d9fbfebbc0c97/HWS_24112023/src/main/java/org/example/BankAccount.java#L14),
+   [снятия со счета - withdraw(int amount).](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/559346aa8267ce30b7bce2952d4d9fbfebbc0c97/HWS_24112023/src/main/java/org/example/BankAccount.java#L23)
