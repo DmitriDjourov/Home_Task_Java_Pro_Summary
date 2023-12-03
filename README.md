@@ -167,3 +167,15 @@ private Student student2;
 3. Имеется счет [BankAccount, на котором хранится определенная сумма денег int sum.](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_24112023/src/main/java/org/example/BankAccount.java)
    Реализовать потокобезопасный [метод пополнения счета - deposit(int amount)](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/559346aa8267ce30b7bce2952d4d9fbfebbc0c97/HWS_24112023/src/main/java/org/example/BankAccount.java#L14),
    [снятия со счета - withdraw(int amount).](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/559346aa8267ce30b7bce2952d4d9fbfebbc0c97/HWS_24112023/src/main/java/org/example/BankAccount.java#L23)
+
+
+# **[HWS_01122023](https://github.com/DmitriDjourov/Home_Task_Java_Pro_Summary/blob/main/HWS_01122023/src/main/java/org/example)**
+## * 1 уровень сложности:
+
+1. Арбалет. См. класс Crossbow в репозитории.
+2. Стрелок robinHood в одном потоке стреляет из арбалета,vего помощник servant в другом потоке приносит ему колчан,
+   когда стрелы закончатся.
+
+3. Заготовка логики в классе Crossbow. Доработать логику, чтобы:
+   1. стрельба продолжалась бесконечно.
+   2. количество приносимых стрел каждый раз определял бы пользователь, вводя число arrows через консоль
